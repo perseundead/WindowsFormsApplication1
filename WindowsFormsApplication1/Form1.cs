@@ -55,7 +55,7 @@ namespace WindowsFormsApplication1
             listaF.Items.Add(nome);
            
             
-            using (System.IO.StreamWriter file = new System.IO.StreamWriter(@"C:\Users\erick.oliveira\Desktop\lista\WriteLines2.txt", true))
+            using (System.IO.StreamWriter file = new System.IO.StreamWriter(@"C:\lista\WriteLines2.txt", true))
             {
                 file.WriteLine(infos());
             }
